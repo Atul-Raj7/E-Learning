@@ -30,7 +30,7 @@ export default function TeacherPortal() {
             </div>
           <div className="option-box">
           <div className="option">
-              <h3>Attendence Sheet</h3>
+              <h3>Join Official Meetings</h3>
             </div>
             <div className="option">
               <h3>Start Live Session</h3>

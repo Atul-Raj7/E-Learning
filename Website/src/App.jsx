@@ -11,6 +11,7 @@ import VideoCon from './pages/VideoCon'
 import QuestionForm from './pages/QuestionForm'
 import CreateForm from './pages/CreateForm'
 import ViewFeedback from './pages/ViewFeedback'
+import ExamScheduler from './pages/ExamScheduler'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
               <Route path='/question_form' element={<QuestionForm/>}/>
               <Route path='/create_form' element={<CreateForm/>}/>
               <Route path='/view_feedback' element={<ViewFeedback/>}/>
+              <Route path='/exam_scheduler' element={<ExamScheduler/>}/>
         </Routes>
       </BrowserRouter>
   )
