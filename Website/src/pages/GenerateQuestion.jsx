@@ -1,75 +1,3 @@
-// import React, { useState } from 'react'
-
-// export default function GenerateQuestion() {
-//     const [questions, setQuestions] = useState({
-//         "subject": "Data Structure and Algorithm",
-//         "mcq": [
-//           {
-//             "question": "Which of the following data structures uses the LIFO (Last-In, First-Out) principle?",
-//             "options": [
-//               "Queue",
-//               "Stack",
-//               "Linked List",
-//               "Binary Tree"
-//             ]
-//           },
-//           {
-//             "question": "What is the time complexity of searching for an element in a sorted array using binary search?",
-//             "options": [
-//               "O(n)",
-//               "O(n^2)",
-//               "O(log n)",
-//               "O(1)"
-//             ]
-//           },
-//           {
-//             "question": "Which of the following is NOT a graph traversal algorithm?",
-//             "options": [
-//               "Breadth-First Search (BFS)",
-//               "Depth-First Search (DFS)",
-//               "Merge Sort",
-//               "Dijkstra's Algorithm"
-//             ]
-//           },
-//           {
-//             "question": "A binary tree where the value of each node is greater than the values of its children is called:",
-//             "options": [
-//               "Binary Search Tree (BST)",
-//               "Max Heap",
-//               "Min Heap",
-//               "Complete Binary Tree"
-//             ]
-//           },
-//           {
-//             "question": "What is the average case time complexity of insertion sort?",
-//             "options": [
-//               "O(n)",
-//               "O(n log n)",
-//               "O(n^2)",
-//               "O(1)"
-//             ]
-//           }
-//         ],
-//         "saq": [
-//           "Explain the difference between a stack and a queue.",
-//           "What is the purpose of a hash table, and how does it work?",
-//           "Define Big O notation and explain its significance in algorithm analysis.",
-//           "Describe the difference between a complete binary tree and a full binary tree.",
-//           "What is the advantage of using a heap data structure?"
-//         ],
-//         "laq": [
-//           "Compare and contrast the performance characteristics of different sorting algorithms (e.g., merge sort, quick sort, insertion sort) considering best-case, average-case, and worst-case scenarios.  Discuss when each algorithm might be preferred.",
-//           "Explain the concept of dynamic programming and illustrate its application with a specific example problem (e.g., Fibonacci sequence, knapsack problem).  Discuss the trade-offs between space and time complexity in dynamic programming solutions.",
-//           "Describe how a graph is represented using adjacency matrices and adjacency lists.  Compare and contrast the advantages and disadvantages of each representation.",
-//           "Discuss the different types of tree traversals (preorder, inorder, postorder) and explain when each traversal might be useful. Provide examples to illustrate your answer.",
-//           "Design an algorithm to detect cycles in a directed graph using Depth-First Search (DFS).  Explain how the algorithm works and analyze its time and space complexity.  Discuss any optimizations that can be made."
-//         ]
-//       })
-//   return (
-//     <div>GenerateQuestion</div>
-//   )
-// }
-
 import React, { useState } from 'react';
 import { jsPDF } from 'jspdf';
 import './GenerateQuestion.css';
@@ -139,12 +67,6 @@ export default function GenerateQuestion() {
       "Design an algorithm to detect cycles in a directed graph using Depth-First Search (DFS). Explain how the algorithm works and analyze its time and space complexity. Discuss any optimizations that can be made."
     ]
   });
-
-//   const downloadPDF = () => {
-//     const doc = new jsPDF();
-//     doc.text("Sample Content", 10, 10);
-//     doc.save("questions.pdf");
-//   };
 
 const downloadPDF = () => {
     const doc = new jsPDF();

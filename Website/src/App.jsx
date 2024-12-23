@@ -8,6 +8,7 @@ import AdminPortal from './pages/AdminPortal'
 import CodeEditor from './pages/CodeEditor'
 import GenerateQuestion from './pages/GenerateQuestion'
 import VideoCon from './pages/VideoCon'
+import QuestionForm from './pages/QuestionForm'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
               <Route path='/code_editor' element={<CodeEditor/>}/>
               <Route path='/generate_question' element={<GenerateQuestion/>}/>
               <Route path='/video_con' element={<VideoCon/>}/>
+              <Route path='/question_form' element={<QuestionForm/>}/>
         </Routes>
       </BrowserRouter>
   )
