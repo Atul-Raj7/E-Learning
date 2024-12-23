@@ -10,6 +10,7 @@ import GenerateQuestion from './pages/GenerateQuestion'
 import VideoCon from './pages/VideoCon'
 import QuestionForm from './pages/QuestionForm'
 import CreateForm from './pages/CreateForm'
+import ViewFeedback from './pages/ViewFeedback'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
               <Route path='/video_con' element={<VideoCon/>}/>
               <Route path='/question_form' element={<QuestionForm/>}/>
               <Route path='/create_form' element={<CreateForm/>}/>
+              <Route path='/view_feedback' element={<ViewFeedback/>}/>
         </Routes>
       </BrowserRouter>
   )
