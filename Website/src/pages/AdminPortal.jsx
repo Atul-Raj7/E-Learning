@@ -30,7 +30,10 @@ export default function AdminPortal() {
             </div>
           <div className="option-box">
             <div className="option">
-              <h3>Check Feedback Forms</h3>
+              <h3>Create Form</h3>
+            </div>
+            <div className="option">
+              <h3>View Feedback</h3>
             </div>
             <div className="option">
               <h3>Teacher Acc. Creation</h3>
@@ -38,9 +41,6 @@ export default function AdminPortal() {
             <div className="option">
               <h3>Host Meetings</h3>
             </div>
-            {/* <div className="option">
-              <h3>Release Examination Form</h3>
-            </div> */}
             <div className="option">
               <h3>Manage Teacher Accounts</h3>
             </div>
